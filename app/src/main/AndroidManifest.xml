@@ -5,18 +5,20 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/playlist"
+        android:label="@string/playlist_activity"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".PlaylistActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PlaySongActivity" android:theme="@style/PlaySongTheme"></activity>
+        <activity android:name=".PlaySongActivity"
+            android:label="@string/play_song_activity"
+            android:parentActivityName=".PlaylistActivity"/>
     </application>
 
 </manifest>

@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">Musical Structure</string>
-    <string name="playlist">Playlist</string>
+    <string name="playlist_activity">Playlist Activity</string>
+    <string name="play_song_activity">Play Song Activity</string>
     <string name="song_title_text">Yeh dil bhi kitna pagal hai</string>
     <string name="song_artist_text">Kumar Sanu</string>
+    <string name="musical_note">Musical Note</string>
+    <string name="play_arrow">Play Arrow</string>
+    <string name="thumbs_down_image">Thumbs Down Image</string>
+    <string name="rewind_image">Rewind Image</string>
+    <string name="play_or_pause_image">Play or Pause Image</string>
+    <string name="fast_forward_image">Fast Forward Image</string>
+    <string name="thumbs_up_image">Thumbs Up Image</string>
 </resources>

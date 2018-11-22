@@ -3,6 +3,11 @@
   <component name="WizardSettings">
     <option name="children">
       <map>
+        <entry key="imageWizard">
+          <value>
+            <PersistentState />
+          </value>
+        </entry>
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -18,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/F:/Installation/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/hardware/ic_keyboard_backspace_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/F:/Installation/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/navigation/ic_cancel_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,11 +33,12 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="height" value="48" />
-                            <entry key="outputName" value="ic_back" />
+                            <entry key="color" value="ff2416" />
+                            <entry key="height" value="32" />
+                            <entry key="outputName" value="ic_cancel" />
                             <entry key="overrideSize" value="true" />
                             <entry key="sourceFile" value="C:\Users\USER" />
-                            <entry key="width" value="48" />
+                            <entry key="width" value="32" />
                           </map>
                         </option>
                       </PersistentState>
