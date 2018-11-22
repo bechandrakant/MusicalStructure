@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="playlist_song_title_text_size">18sp</dimen>
+    <dimen name="playlist_song_artist_text_size">16sp</dimen>
+    <dimen name="default_spacing">16dp</dimen>
+    <dimen name="semi_default_spacing">8dp</dimen>
+    <!-- In play activity -->
+    <dimen name="song_title_text_size">24sp</dimen>
+    <dimen name="song_artist_text_size">18sp</dimen>
+    <dimen name="time_text_size">16sp</dimen>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/default_spacing"
+    tools:context=".PlaySongActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/music_note" />
+
+
+    <TextView
+        android:id="@+id/song_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_spacing"
+        android:gravity="center_horizontal"
+        tools:text="@string/song_title_text"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/song_title_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/song_artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/semi_default_spacing"
+        android:layout_marginBottom="@dimen/default_spacing"
+        android:gravity="center_horizontal"
+        tools:text="@string/song_artist_text"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/song_artist_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/current_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_spacing"
+            android:gravity="center_horizontal"
+            tools:text="1:32"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/time_text_size" />
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/total_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_spacing"
+            android:gravity="center_horizontal"
+            tools:text="2:59"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/time_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_spacing"
+        android:gravity="center_vertical"
+        android:padding="@dimen/default_spacing">
+
+        <ImageView
+            android:id="@+id/thumbs_down_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_thumb_down" />
+
+        <ImageView
+            android:id="@+id/fast_rewind_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_fast_rewind" />
+
+        <ImageView
+            android:id="@+id/play_pause_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_pause" />
+
+        <ImageView
+            android:id="@+id/fast_forward_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_fast_forward" />
+
+        <ImageView
+            android:id="@+id/thumbs_up_image_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_thumb_up" />
+    </LinearLayout>
+</LinearLayout>
